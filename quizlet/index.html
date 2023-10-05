@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizlet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="card__word">держать пари</div>
+      <div class="card__answer">bet</div>
+      <input type="text" class="card__field">
+    </div>
+  </div>
+
+  <div class="info">
+    Всего слов: <span class="info__total">0</span><br>
+    Пройдено: <span class="info__done">0</span><br>
+    Ошибок: <span class="info__error">0</span><br>
+  </div>
+
+  <ul class="change">
+    <li data-set="irregular_verbs">Неправильные глаголы</li>
+    <li data-set="verbs">Глаголы</li>
+    <li data-set="phrasal_verbs">Фразовые глаголы</li>
+    <li data-set="nouns">Существительные</li>
+    <li data-set="adjectives">Прилагательные</li>
+    <li data-set="adverbs">Наречия</li>
+    <li data-set="numbers">Числа</li>
+    <li data-set="body">Части тела</li>
+    <li data-set="clothes">Одежда</li>
+    <li data-set="feels">Чувста и эмоции</li>
+    <li data-set="furniture">Мебель</li>
+  </ul>
+
+  <script src="words.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
