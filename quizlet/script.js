@@ -64,7 +64,7 @@ function installSet(set) {
     const word = parent.querySelector('.card__word').textContent;
     const answer = parent.querySelector('.card__answer').textContent;
     
-    if (target.value !== answer) {
+    if (target.value.toLowerCase() !== answer.toLowerCase()) {
       updateErrorCount();
       saveError(word, answer, target.value);
       cardAnswer.classList.add('show');
